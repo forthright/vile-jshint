@@ -1,0 +1,14 @@
+{
+  "name": "@brentlintner/vile-jshint",
+  "version": "0.0.1",
+  "description": "A vile plugin for JSHint",
+  "main": "lib/index.js",
+  "scripts": {},
+  "dependencies": {
+    "@brentlintner/vile": "~0.1.7",
+    "bluebird": "~2.9.27",
+    "ignore-file": "~1.1.2",
+    "jshint": "~2.8.0",
+    "lodash": "~3.9.3"
+  }
+}

@@ -5,10 +5,13 @@
   "main": "lib/index.js",
   "scripts": {},
   "dependencies": {
-    "@brentlintner/vile": "~0.1.7",
+    "@brentlintner/vile": "~0.4.1",
     "bluebird": "~2.9.27",
     "ignore-file": "~1.1.2",
     "jshint": "~2.8.0",
     "lodash": "~3.9.3"
+  },
+  "devDependencies": {
+    "release-it": "^2.3.1"
   }
 }

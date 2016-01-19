@@ -2,6 +2,12 @@
 
 A [vile](http://vile.io) plugin for [jshint](http://jshint.com).
 
+**NOTICE**
+
+This project is not actively maintained. If you want to
+help maintain the project, or if you have a better
+alternative to switch to, please open an issue and ask!
+
 ## Installation
 
     npm install vile-jshint

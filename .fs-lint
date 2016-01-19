@@ -1,7 +1,7 @@
 {
   "rules": [{
     "files": [
-      "src/**",
+      "lib/**",
       "test/**"
     ],
     "naming": "lowercase_underscore",

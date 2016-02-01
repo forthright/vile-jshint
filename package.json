@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "@brentlintner/vile": "^0.5.10",
-    "@brentlintner/vile-jshint": "^0.2.0",
+    "@brentlintner/vile-jshint": "^0.2.1",
     "release-it": "^2.3.1"
   }
 }

@@ -3,6 +3,7 @@ vile:
       "node_modules",
       ".build",
       ".test",
+      ".git",
       "coverage"
     ]
 

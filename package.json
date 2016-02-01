@@ -1,6 +1,6 @@
 {
   "name": "@brentlintner/vile-jshint",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A vile plugin for JSHint",
   "main": "lib/index.js",
   "scripts": {},

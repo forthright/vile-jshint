@@ -19,18 +19,27 @@ Plugin config goes in your `.vile.yml`:
 ```yml
 jshint:
   config: filepath or object
-  ignore: filepath or object
+  ignore: filepath or array
 ```
 
-### JSHint Default Example
+### Defaults
+
+`vile.ignore` is used as a base ignore,
+and if no config is specified, `.jshintrc` will
+be used.
+
+### Custom Paths
+
+You can specify custom paths for your `.jshintignore` and
+`.jshintrc` files:
 
 ```yml
 jshint:
-  config: .jshintrc
-  ignore: .jshintignore
+  config: some/other/.jshintrc
+  ignore: some/other/.jshintignore
 ```
 
-### Inline Config
+### Inline Config Example
 
 ```yml
 jshint:
@@ -45,8 +54,3 @@ jshint:
       "somewhere/else/**"
     ]
 ```
-
-### Ignore Matching
-
-Ignore checking uses [ignore-file](https://github.com/mafintosh/ignore-file),
-so inline or `.jshintignore` matching may not be exactly the same as the `jshint` CLI.

@@ -11,8 +11,8 @@
   },
   "devDependencies": {
     "@forthright/vile": ">=0.8.2",
-    "@forthright/vile-git": "^0.3.2",
-    "@forthright/vile-jshint": ">=0.2.8",
+    "@forthright/vile-git": "^0.3.3",
+    "@forthright/vile-jshint": ">=0.2.9",
     "babel-cli": "^6.9.0",
     "babel-preset-es2015": "^6.9.0",
     "npm-check-updates": ">=2.6.5",

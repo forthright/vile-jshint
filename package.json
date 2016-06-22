@@ -3,14 +3,16 @@
   "version": "0.2.9",
   "description": "A vile plugin for JSHint",
   "main": "lib/index.js",
-  "scripts": {},
+  "scripts": {
+    "vile": "vile p -usi --nodecorations"
+  },
   "dependencies": {
     "bluebird": "^3.4.0",
     "jshint": "^2.9.2",
     "lodash": "^4.12.0"
   },
   "devDependencies": {
-    "@forthright/vile": ">=0.8.2",
+    "@forthright/vile": ">= 0.9.1",
     "@forthright/vile-git": "^0.3.3",
     "@forthright/vile-jshint": ">=0.2.9",
     "babel-cli": "^6.9.0",

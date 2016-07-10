@@ -25,7 +25,6 @@ vile:
     - tsconfig.json
     - tslint.json
     - tsd.json
-    - lib
     - vendor
     - README.md
     - typings

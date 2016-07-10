@@ -1,6 +1,6 @@
-# vile-jshint
+# vile-jshint;w
 
-A [vile](http://vile.io) plugin for [jshint](http://jshint.com).
+A [vile](https://vile.io) plugin for [jshint](http://jshint.com).
 
 **NOTICE**
 
@@ -10,13 +10,14 @@ alternative to switch to, please open an issue and ask!
 
 ## Installation
 
-    npm install vile-jshint
+    npm i @forthright/vile --save-dev
+    npm i @forthright/vile-jshint --save-dev
 
 ## Config
 
 Plugin config goes in your `.vile.yml`:
 
-```yml
+```yaml
 jshint:
   config: filepath or object
   ignore: filepath or array
@@ -24,33 +25,37 @@ jshint:
 
 ### Defaults
 
-`vile.ignore` is used as a base ignore,
-and if no config is specified, `.jshintrc` will
-be used.
+If no config path is specified, `.jshintrc` will be used.
 
 ### Custom Paths
 
 You can specify custom paths for your `.jshintignore` and
 `.jshintrc` files:
 
-```yml
+```yaml
 jshint:
   config: some/other/.jshintrc
   ignore: some/other/.jshintignore
 ```
 
+You can also set ignore/allow behaviour via `allow` and `ignore` lists.
+
+```yaml
+jshint:
+  allow:
+    - src
+  ignore:
+    - /lib
+```
+
 ### Inline Config Example
 
-```yml
+You can also write config inline.
+
+```yaml
 jshint:
   config:
     asi: true
     globals:
       Promise: true
-
-  ignore: [
-      "node_modules",
-      "foo/**/node_modules",
-      "somewhere/else/**"
-    ]
 ```

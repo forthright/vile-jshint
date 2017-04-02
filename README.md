@@ -1,4 +1,4 @@
-# vile-jshint;w
+# vile-jshint
 
 A [vile](https://vile.io) plugin for [jshint](http://jshint.com).
 

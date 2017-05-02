@@ -1,8 +1,23 @@
 {
-  "name": "@forthright/vile-jshint",
+  "name": "vile-jshint",
   "version": "0.2.12",
   "description": "A vile plugin for JSHint",
   "main": "lib/index.js",
+  "files": [
+    "lib",
+    "LICENSE",
+    "README.md"
+  ],
+  "author": "Brent Lintner <brent.lintner@gmail.com>",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/forthright/vile-jshint/issues"
+  },
+  "homepage": "https://github.com/forthright/vile-jshint",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/forthright/vile-jshint.git"
+  },
   "scripts": {
     "vile": "vile p -usi --nodecorations",
     "release-it": "release-it"
@@ -13,10 +28,10 @@
     "lodash": "^4.17.4"
   },
   "devDependencies": {
-    "@forthright/vile": ">=0.13.0",
-    "@forthright/vile-git": "^0.5.1",
-    "@forthright/vile-jshint": ">=0.2.12",
-    "@forthright/vile-stat": "0.0.14",
+    "vile": ">=0.13.0",
+    "vile-git": "^0.5.1",
+    "vile-jshint": ">=0.2.12",
+    "vile-stat": "0.0.14",
     "babel-cli": "^6.24.1",
     "babel-preset-es2015": "^6.24.1",
     "mimus": "^0.2.5",
@@ -24,6 +39,6 @@
     "release-it": "^2.7.1"
   },
   "peerDependencies": {
-    "@forthright/vile": ">=0.13.0"
+    "vile": ">=0.13.0"
   }
 }

@@ -31,8 +31,8 @@
     "babel-cli": "^6.24.1",
     "babel-preset-es2015": "^6.24.1",
     "mimus": "^0.2.5",
-    "npm-check-updates": "^2.10.5",
-    "release-it": "^2.7.1",
+    "npm-check-updates": "^2.11.2",
+    "release-it": "^2.7.3",
     "vile": "^0.15.0"
   },
   "peerDependencies": {

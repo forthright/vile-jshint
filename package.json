@@ -33,7 +33,7 @@
     "mimus": "^0.2.5",
     "npm-check-updates": "^2.11.2",
     "release-it": "^2.7.3",
-    "vile": "^0.15.0"
+    "vile": "^0.16.0"
   },
   "peerDependencies": {
     "vile": ">=0.15.0"

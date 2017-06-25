@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "bluebird": "^3.5.0",
-    "jshint": "^2.9.4",
+    "jshint": "^2.9.5",
     "lodash": "^4.17.4"
   },
   "devDependencies": {

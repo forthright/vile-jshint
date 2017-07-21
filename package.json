@@ -1,7 +1,7 @@
 {
   "name": "vile-jshint",
   "version": "0.2.13",
-  "description": "A vile plugin for JSHint",
+  "description": "Identify common style and maintainability issues in your JavaScript code.",
   "main": "lib/index.js",
   "files": [
     "lib",

@@ -1,6 +1,7 @@
 # vile-jshint
 
-A [vile](https://vile.io) plugin for [jshint](http://jshint.com).
+A [Vile](https://vile.io) plugin for identifying common style and
+maintainability issues in your JavaScript code (via [JSHint](http://jshint.com)).
 
 **NOTICE**
 
@@ -61,7 +62,7 @@ jshint:
 
 ## Versioning
 
-This project ascribes to [semantic versioning](http://semver.org).
+This project uses [Semver](http://semver.org).
 
 ## Licensing
 
@@ -88,11 +89,4 @@ Even if you are uncomfortable with code, an issue or question is welcome.
 
 ### Code Of Conduct
 
-This project ascribes to [contributor-covenant.org](http://contributor-covenant.org).
-
 By participating in this project you agree to our [Code of Conduct](CODE_OF_CONDUCT.md).
-
-### Maintainers
-
-- Nothing to see here...
-
